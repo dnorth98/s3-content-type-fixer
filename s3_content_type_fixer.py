@@ -4,6 +4,7 @@ import argparse
 import multiprocessing
 import sys
 import mimetypes
+import time
 
 BLOCK_TIME = 60 * 60
 
@@ -92,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    time.sleep(1)
